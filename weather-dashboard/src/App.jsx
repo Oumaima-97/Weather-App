@@ -25,7 +25,7 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-blue-200 p-6">
+    <div className="w-screen h-screen flex flex-col items-center justify-center bg-blue-200 p-6">
       <h1 className="text-3xl font-bold mb-4 text-gray-800">Weather Dashboard</h1>
       
       <SearchBar onSearch={handleSearch} />
